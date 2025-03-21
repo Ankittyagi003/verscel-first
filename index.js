@@ -20,4 +20,4 @@ app.listen(3000,()=>{
     console.log("ankit server");
 })
 
-//https://verscel-first.vercel.app/
+////DB="mongodb+srv://tyagiiankit254:gxb7U9V5crQa2KG9@cluster2.cmiii.mongodb.net/"
