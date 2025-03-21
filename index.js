@@ -17,6 +17,12 @@ app.get("/",(req,res)=>{
 
  })
 
+
+ app.get("/get",async(req,res)=>{
+    const user= await userModel.find();
+    res.send(user);
+
+})
 app.listen(3000,()=>{
     console.log("ankit server");
 })
