@@ -7,7 +7,7 @@ require("dotenv").config();
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.send("hello tajpur ji");
+    res.send("hello tajpur jiii");
 
 });
 
@@ -24,6 +24,7 @@ app.get("/",(req,res)=>{
 
 })
 app.listen(3000,()=>{
+
     console.log("ankit server");
 })
 
