@@ -5,8 +5,9 @@ const userModel =require("./model/user.js")
 require("dotenv").config();
 
 app.use(express.json());
+
 app.get("/",(req,res)=>{
-    res.send("hello tajpur");
+    res.send("hello tajpur ji");
 
 });
 
@@ -20,4 +21,6 @@ app.listen(3000,()=>{
     console.log("ankit server");
 })
 
+
 ////DB="mongodb+srv://tyagiiankit254:gxb7U9V5crQa2KG9@cluster2.cmiii.mongodb.net/"
+//7B98CYSFndxQ7Wyn
