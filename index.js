@@ -13,14 +13,14 @@ app.get("/",(req,res)=>{
 
  app.get("/create",async(req,res)=>{
      const user= await userModel.create(req.body);
-     res.send(user);
+     res.json(user);
 
  })
 
 
  app.get("/get",async(req,res)=>{
     const user= await userModel.find();
-    res.send(user);
+    res.json(user);
 
 })
 app.listen(3000,()=>{
